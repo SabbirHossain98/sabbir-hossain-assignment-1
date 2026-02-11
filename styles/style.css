@@ -259,7 +259,7 @@ header {
     gap: 16px;
 }
 
-#brain .brain-content #p1 {
+#brain .brain-content .para1 {
     text-transform: uppercase;
     color: #30B868;
     font-size: 16px;
@@ -273,7 +273,7 @@ header {
     font-weight: 700;
 }
 
-#brain .brain-content #p2 {
+#brain .brain-content .para2 {
     color: #627382;
     font-size: 16px;
     font-weight: 400;
@@ -296,4 +296,61 @@ header {
     font-weight: 500;
     line-height: 20px;
     color: #001931;
+}
+
+/* Early Access Section */
+#early-access {
+    background-color: #F7F6F2;
+    width: 1360px;
+    margin: 0 auto;
+    padding: 80px 40px;
+    border-radius: 12px;
+}
+
+#early-access .early-access-content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    text-align: center;
+}
+
+#early-access .early-access-content h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #001931;
+}
+
+#early-access .early-access-content p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    line-height: 20px;
+    max-width: 700px;
+}
+
+#early-access .early-access-content button {
+    margin-top: 8px;
+    padding: 12px 16px;
+    background-color: #469165;
+    border: none;
+    border-radius: 4px;
+}
+
+#early-access .early-access-content button a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    display: inline-flex;
+    gap: 10px;
+    align-items: center;
+}
+
+#early-access .early-access-content button img {
+    display: block;
+}
+
+#early-access .early-access-content .credit-card {
+    font-size: 14px;
 }
